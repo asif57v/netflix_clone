@@ -1,0 +1,536 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: black;
+}
+.main
+{
+    height: 100vh;
+    padding-top: 0px;
+    padding-right: 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,180vw);
+    background-image: url("net\ back1.jpg");
+    /* position: relative; */
+
+}
+
+
+
+.na{
+    color: white;
+
+
+    background-image: url("net2.png");
+    height: 47px;
+    width: 170px;
+    background-size: contain;
+   
+    background-color: white;
+}
+
+.main .box
+{
+
+    height: 100vh;
+    width: 100%;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    max-width: 80vw;
+    margin: auto;
+   
+}
+
+nav button
+{
+    position: relative;
+    z-index: 10;
+}
+
+nav .na{
+    position: relative;
+    z-index: 10;
+}
+ #sign
+{
+    position: absolute;
+     right: 245px;
+     background-color: red;
+     color: white;
+     width: 80px;
+}
+
+button{
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#en
+{
+    width: 80px;
+}
+
+.hero
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 94%;
+    flex-direction: column;
+    position: relative;
+
+    
+}
+
+
+
+#first
+{
+   
+    font-size: 64px;
+    font-weight:1000;
+    font-style:bold;
+}
+
+#second
+{
+    font-size :64px;
+    font-weight:1000;
+    font-style:bold;
+}
+
+#third
+{
+    font-size: 22px;
+    font-style: bold;
+    font-weight: 800;
+}
+
+#fourth
+{
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 44px;
+}
+
+#add
+{
+    height: 50px;
+    width: 400px;
+    background-color: red;
+    color: white;
+    border: 1.5px solid white;
+    
+}
+
+
+#email
+{
+    height: 55px;
+    width: 320px;
+    background-color: transparent;
+    border: 1.4px solid white;
+    color: white;
+    font-display: white;
+    margin-top: 16px;
+    padding-left: 32px;
+    font-weight: 900;
+    position: relative;
+    z-index: 10;
+}
+
+#started
+{
+    height: 59px;
+    width: 250px;
+    background-color: red;
+    color: white;
+}
+
+.seperation
+{
+    height: 10px;
+    width: 100%;
+    background-color: rgb(57, 54, 54);
+     position: absolute;
+    
+}
+
+.first
+{
+     height: 36px;
+    width: 100%;
+    /* background-color: #04008b21;  */
+    margin-top: -62px;
+    display: flex;
+
+}
+
+
+
+.boxes
+{
+    display: flex;
+    gap:40px;
+    margin-left: 110px;
+    margin-top: 170px;
+    
+}
+.box1
+{
+    height: 220px;
+    width: 160px;
+    background-color: aliceblue;
+    background-image: url("stree.jpg");
+    color: black;
+    border: 3px solid white;
+}
+.box2
+{
+    height: 220px;
+    width: 160px;
+    background-color: aliceblue;
+    background-image: url("kalki.jpg");
+    border: 3px solid white;
+}
+.box3
+{
+    height: 220px;
+    width: 160px;
+    background-color: aliceblue;
+    background-image: url("kota\ factory.jpg");
+    border: 3px solid white;
+}
+.box4
+{
+    height: 220px;
+    width: 160px;
+    background-color: aliceblue;
+    background-image: url("kgf.jpg");
+    border: 3px solid white;
+}
+.box5
+{
+    height: 220px;
+    width: 160px;
+    background-color: aliceblue;
+    background-image: url("ms.jpg");
+    border: 3px solid white;
+}
+
+#one
+{
+    color: black;
+    /* border: 4px solid white; */
+    font-size: 59px;
+}
+
+
+.color-boxes
+{
+display: flex;
+gap: 12px;
+/* margin-left: 110px; */
+margin-top: 370px;
+
+height: 400px;
+
+
+}
+#text
+{
+    color: white;
+    margin-left: 170px;
+    padding-top: 27px;
+    font-size: 30px;
+}
+.co
+{
+    margin-top:70px;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    margin-left: 170px;
+    
+
+
+
+}
+.color1
+{
+    height: 300px;
+    width: 280px;
+    background-color: rgb(54 31 71 / 58%);
+    border-radius: 10px;
+    color: white;
+}
+#p1
+{
+    font-size: 23px;
+    margin-top: 25px;
+    margin-left: 18px;
+}
+
+.color2
+{
+     height: 300px;
+    width: 280px;
+    background-color: rgb(54 31 71 / 58%);
+    border-radius: 10px;
+    color: white;
+}
+
+.color3
+{
+    height: 300px;
+    width: 280px;
+    background-color:rgb(54 31 71 / 58%);
+    border-radius: 10px;
+}
+
+.color4
+{
+    height: 300px;
+    width: 280px;
+    background-color: rgb(54 31 71 / 58%);
+    border-radius: 10px;
+}
+
+.para
+{
+    margin-top: 20px;
+    margin-left: 18px;
+    font-size: 17px;
+    position: relative;
+    z-index: -1;
+}
+
+#down1
+{
+    font-size: 23px;
+    margin-top: 25px;
+    margin-left: 18px;
+}
+
+
+#down2
+{
+    font-size: 23px;
+    margin-top: -1px;
+    margin-left: 18px;
+}
+.para2
+{
+    margin-top: 20px;
+    margin-left: 18px;
+    font-size: 17px;
+    position: relative;
+    z-index: -1;
+
+}
+
+#every
+{
+    font-size: 23px;
+    margin-top: 25px;
+    margin-left: 18px;
+    color: white;
+}
+
+
+.para3
+{
+    margin-top: 20px;
+    margin-left: 18px;
+    font-size: 17px;
+    position: relative;
+    z-index: -1;
+    color: white;
+}
+
+#create
+{
+    
+    font-size: 23px;
+    margin-top: 25px;
+    margin-left: 18px;
+    color: white;
+
+}
+
+.para4
+{
+    margin-top: 20px;
+    margin-left: 18px;
+    font-size: 17px;
+    position: relative;
+    z-index: -1;
+    color: white;
+}
+
+.questions
+{
+
+    color: white;
+
+}
+
+
+.question
+{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+
+#ask
+{
+    margin-left: 170px;
+
+}
+
+.net
+{
+    height: 65px;
+    width: 1179px;
+    background-color: #2d2b2b;
+    margin-left: 170px;
+    display: flex;
+    align-items: center;
+   
+}
+
+#is
+{
+    margin-left: 20px;
+    color: white;
+    font-size: 26px;
+}
+
+.cost
+{
+    height: 65px;
+    width: 1179px;
+    background-color: #2d2b2b;
+    margin-left: 170px;
+    display: flex;
+    align-items: center;
+    
+}
+
+#is3,#is2,#is4,#is5,#is6
+{
+    margin-left: 20px;
+    color: white;
+    font-size: 26px;
+}
+
+
+
+.watch
+{
+    height: 65px;
+    width: 1179px;
+    background-color: #2d2b2b;
+    margin-left: 170px;
+    display: flex;
+    align-items: center;
+}
+
+.cance
+{
+    height: 65px;
+    width: 1179px;
+    background-color: #2d2b2b;
+    margin-left: 170px;
+    display: flex;
+    align-items: center;
+}
+.on 
+{
+    height: 65px;
+    width: 1179px;
+    background-color: #2d2b2b;
+    margin-left: 170px;
+    display: flex;
+    align-items: center;
+
+}
+
+.kid
+{
+    height: 65px;
+    width: 1179px;
+    background-color: #2d2b2b;
+    margin-left: 170px;
+    display: flex;
+    align-items: center;
+}
+
+.email
+{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+
+}
+#your
+{
+    color: white;
+    margin-left: 560px;
+    margin-top: 54px;
+
+  
+}
+
+#addd
+{
+    height: 53px;
+    width: 485px;
+    margin-top: 20px;
+    margin-left: 370px;
+ 
+    position:relative;
+    z-index: 10;
+    background-color:#181717;
+    padding-left: 19px;
+    border: 1px solid rgb(173, 169, 169);
+    border-radius: 4px;
+
+}
+
+#get
+{
+    height:53px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 6px;
+    padding-right: 35px;
+}
